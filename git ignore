@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Data files (optional - important for data projects)
+*.csv
+*.parquet
+*.json
+
+# Databricks / Spark temp
+dbfs/
+spark-warehouse/
+
+# Airflow
+airflow.cfg
+airflow.db
+
+# Terraform (if used)
+.terraform/
+*.tfstate
+
+# Secrets
+secrets.json
+credentials.json
+
+# Logs & temp
+tmp/
+temp/
